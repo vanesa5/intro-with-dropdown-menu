@@ -1,15 +1,13 @@
     // Mobile Menu
     @import "./mobile-menu";
+    @import "./variables";
 
 
 body{
     width: 375px;
 
 }
-section {
-    background-color: red;
-    
-}
+
 
 .header-bar{
     figure{
@@ -23,3 +21,16 @@ section {
     justify-content: space-between;
 }
 
+.mobile-header-image{
+    img{
+        max-width: 375px;
+    }
+}
+
+.intro{
+
+    h1, p, button {
+        margin: $medMargin;
+    }
+    
+}
