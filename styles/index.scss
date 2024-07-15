@@ -1,0 +1,18 @@
+body{
+    width: 375px;
+
+}
+section {
+    background-color: red;
+    
+}
+
+figure{
+    margin: 0;
+
+    img{
+        margin: 20px;
+    }
+}
+    // Mobile Menu
+    @import "./mobile-menu";
