@@ -1,0 +1,43 @@
+@import "./poppins-font";
+
+
+
+
+// Breakpoints
+@mixin respond-to($breakpoint) {
+    @if $breakpoint == small {
+      @media (min-width: $breakpoint-small) {
+        @content;
+      }
+    } @else if $breakpoint == medium {
+      @media (min-width: $breakpoint-medium) {
+        @content;
+      }
+    } @else if $breakpoint == large {
+      @media (min-width: $breakpoint-large) {
+        @content;
+      }
+    }
+  }
+
+
+// Fonts
+
+@mixin poppins-bold{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @mixin poppins-regular{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @mixin poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  

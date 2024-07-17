@@ -1,10 +1,14 @@
     // Mobile Menu
     @import "./mobile-menu";
     @import "./variables";
-
+    @import "./mixins";
+html{
+    display: flex;
+    justify-content: center;
+}
 
 body{
-    width: 375px;
+    min-width: 375px;
 
 }
 
@@ -28,9 +32,50 @@ body{
 }
 
 .intro{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+
 
     h1, p, button {
         margin: $medMargin;
     }
+
+    h1{
+        @include poppins-bold;
+        font-size: $lrgFontSize;
+    }
+    p{
+        font-size: $smFontSize;
+        color: $primaryFontColor;
+        text-align: center
+    }
+    p, button {
+        @include poppins-regular;
+    }
+    button{
+        font-size: $medFontSize;
+        color: white;
+        background-color: black;
+        height: 45px;
+        width: 135px;
+        border-radius: 10px;
+        border-style: none;
+    }
     
 }
+
+.clients{
+    margin: $lrgMargin 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+        margin: 0 $smMargin;
+        max-height: 25px;
+        max-width: 80px;
+        object-fit: contain;
+    }
+}
+

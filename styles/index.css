@@ -1,12 +1,59 @@
-/* Start of Ham menu for mobile*/
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
 .off-screen-menu {
   background-color: rgb(255, 255, 255);
   height: 100vh;
-  width: 100%;
+  width: 240px;
   max-width: 70%;
   position: fixed;
   top: 0;
-  right: -350px;
+  right: -450px;
   display: flex;
   flex-direction: column;
   font-size: 1.5rem;
@@ -16,8 +63,42 @@
   transition: 0.3s ease;
 }
 
+.off-screen-menu {
+  padding-top: 80px;
+}
 .off-screen-menu ul {
   list-style: none;
+  padding-left: 20px;
+  margin: 0;
+}
+.off-screen-menu li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(117, 117, 117);
+  font-size: 1rem;
+  padding: 0;
+  height: 40px;
+}
+.off-screen-menu .login-menu {
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.off-screen-menu .login-menu li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.off-screen-menu .login-menu #register {
+  border: black;
+  width: 135px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
 }
 
 .off-screen-menu.active {
@@ -71,8 +152,61 @@ nav {
 }
 
 /* End of Ham menu for mobil*/
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
 body {
-  width: 375px;
+  min-width: 375px;
 }
 
 .header-bar {
@@ -90,6 +224,50 @@ body {
   max-width: 375px;
 }
 
+.intro {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+}
 .intro h1, .intro p, .intro button {
   margin: 15px;
+}
+.intro h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.187rem;
+}
+.intro p {
+  font-size: 1rem;
+  color: rgb(117, 117, 117);
+  text-align: center;
+}
+.intro p, .intro button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.intro button {
+  font-size: 1.1rem;
+  color: white;
+  background-color: black;
+  height: 45px;
+  width: 135px;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.clients {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.clients img {
+  margin: 0 10px;
+  max-height: 25px;
+  max-width: 80px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=index.css.map */
