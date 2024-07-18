@@ -200,6 +200,13 @@ nav {
   font-style: normal;
 }
 
+.off-screen-menu .features a, .off-screen-menu .company a {
+  text-decoration: none;
+}
+.off-screen-menu .sub-menu li a {
+  text-decoration: none;
+}
+
 html {
   display: flex;
   justify-content: center;
