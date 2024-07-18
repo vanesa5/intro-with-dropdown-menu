@@ -1,14 +1,31 @@
+@import "./variables";
+
 .off-screen-menu{
 
-    .features a, .company a{
-        text-decoration: none;
+    ul{
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
 
+        li{
+            //border: 1px pink solid;
+            height: auto;
+        }
+
+        .features a, .company a{
+            text-decoration: none;
+            color: $primaryFontColor ;
+    
+        }
     }
+
 
     .sub-menu{
         li{
+            line-height: 40px;
             a{
                 text-decoration: none;
+                color: $primaryFontColor ;
 
             }
 

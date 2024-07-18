@@ -80,6 +80,9 @@
   padding: 0;
   height: 40px;
 }
+.off-screen-menu li:hover, .off-screen-menu .company a:hover, .off-screen-menu .features a:hover {
+  color: black;
+}
 .off-screen-menu .login-menu {
   text-align: center;
   margin-top: 10px;
@@ -200,11 +203,24 @@ nav {
   font-style: normal;
 }
 
-.off-screen-menu .features a, .off-screen-menu .company a {
+.off-screen-menu ul {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+.off-screen-menu ul li {
+  height: auto;
+}
+.off-screen-menu ul .features a, .off-screen-menu ul .company a {
   text-decoration: none;
+  color: rgb(117, 117, 117);
+}
+.off-screen-menu .sub-menu li {
+  line-height: 40px;
 }
 .off-screen-menu .sub-menu li a {
   text-decoration: none;
+  color: rgb(117, 117, 117);
 }
 
 html {

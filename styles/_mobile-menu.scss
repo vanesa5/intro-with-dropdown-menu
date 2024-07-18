@@ -32,6 +32,11 @@
         font-size: $smFontSize;
         padding: 0;
         height: 40px;
+
+    }
+
+    li:hover, .company a:hover, .features a:hover {
+        color: black;
     }
 
     .login-menu{
@@ -52,6 +57,7 @@
             border-radius: 20px;
             border-style: solid;
             border-width: 1px;
+
         }
     }
 
