@@ -2,8 +2,8 @@
     @import "./mobile-menu";
     @import "./variables";
     @import "./mixins";
-
     @import "./dropdown-menu";
+    @import "./desktop";
     
 html{
     display: flex;

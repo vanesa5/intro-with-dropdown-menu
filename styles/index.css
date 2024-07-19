@@ -98,7 +98,8 @@
 }
 .off-screen-menu .login-menu #register {
   border: black;
-  width: 135px;
+  width: 200px;
+  line-height: 40px;
   border-radius: 20px;
   border-style: solid;
   border-width: 1px;
@@ -210,6 +211,7 @@ nav {
 }
 .off-screen-menu ul li {
   height: auto;
+  line-height: 50px;
 }
 .off-screen-menu ul .features a, .off-screen-menu ul .company a {
   text-decoration: none;
@@ -226,6 +228,24 @@ nav {
   color: rgb(117, 117, 117);
 }
 
+@media only screen and (min-width: 1200px) {
+  body {
+    max-width: 1200px;
+    background-color: rgb(203, 158, 158);
+  }
+  .mobile-header-image {
+    display: none;
+  }
+  .desktop-header-image {
+    display: block;
+  }
+  .intro {
+    width: 50%;
+  }
+  .intro h1, .intro p, .intro button {
+    float: left;
+  }
+}
 html {
   display: flex;
   justify-content: center;

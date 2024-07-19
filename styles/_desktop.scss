@@ -1,0 +1,27 @@
+@media only screen and (min-width:1200px) {
+    body{
+        max-width: 1200px ;
+        background-color: rgb(203, 158, 158);
+    }
+
+    // Section 2
+
+    .mobile-header-image{
+        display: none;
+    }
+    .desktop-header-image{
+        display: block;
+    }
+
+
+    // Section 3
+// Working left here
+    .intro{
+        width: 50%;
+        h1, p, button{
+            float: left;
+        }
+    }
+
+
+}
