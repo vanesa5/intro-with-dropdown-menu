@@ -215,6 +215,9 @@ nav {
   text-decoration: none;
   color: rgb(117, 117, 117);
 }
+.off-screen-menu .sub-menu {
+  display: none;
+}
 .off-screen-menu .sub-menu li {
   line-height: 40px;
 }
